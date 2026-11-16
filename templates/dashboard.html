@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1072, initial-scale=1">
+  <title>München – Wetter</title>
+  <style>
+    @page { size: 1072px 1448px; margin: 0; }
+    * { box-sizing: border-box; }
+    html, body {
+      width: 1072px;
+      height: 1448px;
+      margin: 0;
+      background: #fff;
+      color: #000;
+      font-family: Arial, Helvetica, sans-serif;
+      -webkit-font-smoothing: none;
+    }
+    body {
+      padding: 32px 40px;
+      display: grid;
+      grid-template-rows: 130px 373px minmax(0, 1fr) minmax(0, 1fr);
+      row-gap: 12px;
+    }
+    main { min-height: 0; display: flow-root; }
+    .masthead {
+      height: 130px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      border-bottom: 4px solid #000;
+      padding-bottom: 16px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 52px;
+      line-height: .95;
+      letter-spacing: 2px;
+      font-weight: 800;
+    }
+    .date-block {
+      margin-top: 7px;
+      line-height: 1.15;
+      font-weight: 700;
+    }
+    .date { font-size: 22px; }
+    .updated { margin-top: 3px; font-size: 15px; }
+    .current {
+      text-align: right;
+      padding-bottom: 2px;
+    }
+    .temperature {
+      font-size: 38px;
+      line-height: 1;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .condition {
+      margin-top: 5px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .section-heading {
+      margin: 12px 0 6px;
+      font-size: 20px;
+      line-height: 1;
+      font-weight: 800;
+      letter-spacing: .4px;
+    }
+    .timeline-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .legend {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+    .legend-item { display: flex; align-items: center; gap: 4px; }
+    .swatch {
+      width: 18px;
+      height: 13px;
+      flex: 0 0 auto;
+      border: 1px solid #000;
+    }
+    .swatch.dry, .rain-dry { background: #fff; }
+    .swatch.possible, .rain-possible {
+      background: repeating-linear-gradient(45deg, #000 0, #000 2px, #fff 2px, #fff 6px);
+    }
+    .swatch.heavy, .rain-heavy { background: #000; }
+    .rain-chart {
+      height: 145px;
+      position: relative;
+    }
+    .rain-bar {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      right: 0;
+      height: 40px;
+      display: grid;
+      grid-template-columns: repeat(17, minmax(0, 1fr));
+      border: 2px solid #000;
+    }
+    .rain-segment {
+      min-width: 0;
+      border-right: 1px solid #000;
+    }
+    .rain-segment:last-child { border-right: 0; }
+    .timeline-tick {
+      position: absolute;
+      top: 0;
+      height: 30px;
+      transform: translateX(-50%);
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .timeline-tick.start { transform: none; }
+    .timeline-tick.end { transform: translateX(-100%); }
+    .tick-mark {
+      position: absolute;
+      top: 19px;
+      left: 50%;
+      height: 11px;
+      border-left: 2px solid #000;
+    }
+    .timeline-tick.important {
+      font-size: 17px;
+      font-weight: 900;
+    }
+    .timeline-tick.important .tick-mark {
+      top: 16px;
+      height: 14px;
+      border-left-width: 4px;
+    }
+    .weather-points {
+      position: absolute;
+      top: 78px;
+      left: 0;
+      right: 0;
+      height: 58px;
+    }
+    .weather-point {
+      position: absolute;
+      top: 0;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+      font-size: 14px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .weather-point.important { font-size: 16px; font-weight: 900; }
+    .weather-icon, .weather-icon svg { display: block; width: 28px; height: 28px; }
+    .section-heading.forecast-heading { margin-top: 14px; }
+    .forecast {
+      height: 150px;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      border: 2px solid #000;
+    }
+    .day {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 4px;
+      text-align: center;
+      border-right: 2px solid #000;
+    }
+    .day:last-child { border-right: 0; }
+    .weekday { font-size: 17px; font-weight: 800; }
+    .day-date { margin-top: 2px; font-size: 13px; font-weight: 700; }
+    .icon { width: 38px; height: 38px; }
+    .temps { font-size: 16px; font-weight: 800; white-space: nowrap; }
+    .rain { font-size: 13px; font-weight: 700; white-space: nowrap; }
+    .theory-card, .news-section {
+      min-height: 0;
+      border: 3px solid #000;
+    }
+    .theory-card {
+      display: grid;
+      grid-template-rows: auto auto auto 1fr auto;
+      gap: 7px;
+      padding: 16px 20px;
+    }
+    .card-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: .3px;
+    }
+    .category-badge {
+      border: 2px solid #000;
+      padding: 4px 10px;
+      font-size: 13px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+    .term-title {
+      margin: 0;
+      font: 700 38px/1.05 Georgia, "Times New Roman", serif;
+    }
+    .term-source {
+      font-size: 16px;
+      font-style: italic;
+      line-height: 1.2;
+    }
+    .term-definition {
+      align-self: center;
+      font-size: 19px;
+      line-height: 1.35;
+    }
+    .term-footer {
+      border-top: 2px solid #000;
+      padding-top: 9px;
+      font-size: 16px;
+      line-height: 1.2;
+    }
+    .news-section {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 7px;
+      padding: 13px 18px;
+    }
+    .news-heading {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.1;
+      font-weight: 800;
+    }
+    .news-grid {
+      min-height: 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-rows: repeat(3, minmax(0, 1fr));
+      column-gap: 20px;
+      row-gap: 4px;
+    }
+    .news-item {
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      border-top: 1px solid #000;
+      padding-top: 4px;
+    }
+    .news-category {
+      font-size: 12px;
+      line-height: 1.1;
+      font-weight: 900;
+      letter-spacing: .3px;
+    }
+    .news-title {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      margin-top: 2px;
+      font-size: 15px;
+      line-height: 1.15;
+      font-weight: 800;
+    }
+    .news-summary {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      margin-top: 3px;
+      font-size: 13px;
+      line-height: 1.15;
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div>
+      <h1>MÜNCHEN</h1>
+      <div class="date-block">
+        <div class="date">{{ date }}</div>
+        <div class="updated">Stand: {{ updated }} Uhr</div>
+      </div>
+    </div>
+    <div class="current">
+      <div class="temperature">{{ temperature_max }}° / {{ temperature_min }}°C</div>
+      <div class="condition">{{ condition }}</div>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="section-heading timeline-heading">
+      <span>HEUTE IM VERLAUF (06–23 UHR)</span>
+      <span class="legend" aria-label="Legende">
+        <span class="legend-item"><span class="swatch dry"></span>Trocken (&lt;20%)</span>
+        <span class="legend-item"><span class="swatch possible"></span>Möglich (20–59%)</span>
+        <span class="legend-item"><span class="swatch heavy"></span>Regen (≥60%)</span>
+      </span>
+    </h2>
+    <section class="rain-chart" aria-label="Regenwahrscheinlichkeit stündlich von 06 bis 23 Uhr">
+      {% for tick in timeline_ticks %}
+      <div class="timeline-tick {{ tick.edge }}{% if tick.important %} important{% endif %}"
+           style="left: {{ '%.5f'|format(tick.position) }}%">
+        {{ tick.time }}<span class="tick-mark"></span>
+      </div>
+      {% endfor %}
+      <div class="rain-bar">
+        {% for segment in rain_segments %}
+        <div class="rain-segment {{ segment.class }}"
+             aria-label="{{ segment.start }}–{{ segment.end }} Uhr: {{ segment.rain }}% Regen"></div>
+        {% endfor %}
+      </div>
+      <div class="weather-points">
+        {% for point in weather_points %}
+        <div class="weather-point{% if point.important %} important{% endif %}"
+             style="left: {{ '%.5f'|format(point.position) }}%">
+          <span class="weather-icon">{{ point.icon | safe }}</span>
+          <span>{{ point.temperature }}°C</span>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+    <h2 class="section-heading forecast-heading">7-TAGE-VORHERSAGE</h2>
+    <section class="forecast" aria-label="Wettervorhersage für sieben Tage">
+      {% for day in forecast %}
+      <article class="day">
+        <div>
+          <div class="weekday">{{ day.weekday }}</div>
+          <div class="day-date">{% if day.is_today %}Heute · {% endif %}{{ day.date }}</div>
+        </div>
+        <div class="icon">{{ day.icon | safe }}</div>
+        <div class="temps">{{ day.min }}° / {{ day.max }}°</div>
+        <div class="rain">Regen {{ day.rain if day.rain is not none else "–" }}%</div>
+      </article>
+      {% endfor %}
+    </section>
+  </main>
+
+  <section class="theory-card" aria-label="Theorie und Begriff des Tages">
+    <div class="card-heading">
+      <span>THEORIE &amp; BEGRIFF DES TAGES</span>
+      <span class="category-badge">{{ term.kategorie }}</span>
+    </div>
+    <h2 class="term-title">{{ term.begriff }}</h2>
+    <div class="term-source">{{ term.denker_werk }}</div>
+    <div class="term-definition">{{ term.definition }}</div>
+    <div class="term-footer"><strong>Abgrenzung:</strong> {{ term.gegenbegriff }}</div>
+  </section>
+
+  <section class="news-section" aria-label="Gestern in Welt, Deutschland und München">
+    <h2 class="news-heading">GESTERN IN WELT, DEUTSCHLAND &amp; MÜNCHEN</h2>
+    <div class="news-grid">
+      {% for item in news %}
+      <article class="news-item">
+        <div class="news-category">[{{ item.category }}]</div>
+        <div class="news-title">{{ item.title }}</div>
+        <div class="news-summary">{{ item.summary }}</div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+</body>
+</html>

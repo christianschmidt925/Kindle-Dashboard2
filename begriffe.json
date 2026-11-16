@@ -1,0 +1,422 @@
+[
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Historischer Materialismus",
+    "denker_werk": "Karl Marx und Friedrich Engels, Die deutsche Ideologie",
+    "definition": "Der historische Materialismus untersucht, wie Menschen ihre materiellen Lebensbedingungen herstellen und dadurch gesellschaftliche Verhältnisse prägen. Produktionsweise, Eigentum und Arbeitsteilung bilden dabei keine starre Ursache, sondern ein historisch veränderliches Gefüge, in dem Institutionen und Ideen mitwirken. Gesellschaftliche Umbrüche entstehen aus Widersprüchen zwischen Produktivkräften und Produktionsverhältnissen.",
+    "gegenbegriff": "Idealistische Geschichtsdeutung"
+  },
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Basis und Überbau",
+    "denker_werk": "Karl Marx, Zur Kritik der politischen Ökonomie",
+    "definition": "Die Metapher bezeichnet die Wechselbeziehungen zwischen ökonomischer Struktur und politischen, rechtlichen sowie kulturellen Formen einer Gesellschaft. Der Überbau ist nicht bloß ein mechanischer Spiegel der Basis, sondern kann bestehende Verhältnisse stabilisieren oder verändern. Marxistische Debatten kreisen deshalb um die Frage, wie ökonomische Bedingungen und politische Eigenständigkeit zusammenwirken.",
+    "gegenbegriff": "Ökonomischer Determinismus"
+  },
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Entfremdung",
+    "denker_werk": "Karl Marx, Ökonomisch-philosophische Manuskripte",
+    "definition": "Entfremdung beschreibt, wie Menschen unter bestimmten Arbeits- und Eigentumsverhältnissen den Produkten, Tätigkeiten und sozialen Kräften gegenübertreten, die sie selbst hervorbringen. Arbeit erscheint dann als äußerer Zwang, während ihr Ergebnis anderen gehört und die eigene Tätigkeit nicht als selbstbestimmte Lebensäußerung erfahrbar ist. Der Begriff bezeichnet eine gesellschaftliche Beziehung, keine bloße individuelle Stimmung.",
+    "gegenbegriff": "Selbstbestimmte Tätigkeit"
+  },
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Dialektische Methode",
+    "denker_werk": "G. W. F. Hegel, Wissenschaft der Logik; Karl Marx, Das Kapital",
+    "definition": "Dialektisches Denken begreift Gegenstände nicht als isolierte Dinge, sondern in ihren Beziehungen, Veränderungen und inneren Spannungen. Widersprüche sind dabei nicht nur Denkfehler, sondern können reale Konflikte einer Ordnung ausdrücken und deren Veränderung antreiben. Marx übernimmt die Bewegungsform der Hegelschen Dialektik, richtet sie jedoch auf materielle und historische Verhältnisse.",
+    "gegenbegriff": "Statische Wesensbestimmung"
+  },
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Produktivkräfte und Produktionsverhältnisse",
+    "denker_werk": "Karl Marx, Vorwort zu Zur Kritik der politischen Ökonomie",
+    "definition": "Produktivkräfte umfassen Arbeitsvermögen, Wissen, Technik und die Mittel, mit denen eine Gesellschaft Güter herstellt. Produktionsverhältnisse regeln, wer über diese Mittel verfügt und wie Arbeit organisiert und angeeignet wird. Historische Krisen können entstehen, wenn gewachsene Eigentums- und Machtordnungen die Entwicklung der Produktivkräfte begrenzen.",
+    "gegenbegriff": "Technologischer Determinismus"
+  },
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Klassenkampf",
+    "denker_werk": "Karl Marx und Friedrich Engels, Manifest der Kommunistischen Partei",
+    "definition": "Klassenkampf bezeichnet Konflikte zwischen Gruppen, deren Stellung in der Produktion durch unterschiedliche Verfügung über Eigentum und Arbeit geprägt ist. Er findet nicht nur in offenen Aufständen statt, sondern auch in Auseinandersetzungen um Lohn, Arbeitszeit, Recht und politische Repräsentation. Klassenlagen führen nicht automatisch zu gemeinsamem Bewusstsein oder kollektivem Handeln.",
+    "gegenbegriff": "Soziale Schichtung ohne Konfliktanalyse"
+  },
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Ideologie",
+    "denker_werk": "Karl Marx und Friedrich Engels, Die deutsche Ideologie",
+    "definition": "Ideologie bezeichnet Deutungsmuster, durch die gesellschaftlich besondere Interessen als natürlich, allgemein oder alternativlos erscheinen können. Sie wirkt nicht allein als bewusste Täuschung, sondern ist in Institutionen, Gewohnheiten und alltäglichen Vorstellungen verankert. Eine Ideologiekritik fragt daher nach den sozialen Bedingungen und Funktionen von Ideen.",
+    "gegenbegriff": "Ideologiekritik"
+  },
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Praxis",
+    "denker_werk": "Karl Marx, Thesen über Feuerbach",
+    "definition": "Praxis meint zweckgerichtetes menschliches Handeln, das gesellschaftliche Verhältnisse zugleich voraussetzt und verändern kann. Erkenntnis ist in dieser Perspektive nicht bloß Betrachtung, sondern mit materiellen Tätigkeiten und ihren Folgen verbunden. Marx' Praxisbegriff verbindet damit Kritik, Erfahrung und die Möglichkeit kollektiver Veränderung.",
+    "gegenbegriff": "Kontemplation"
+  },
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Verdinglichung",
+    "denker_werk": "Georg Lukács, Geschichte und Klassenbewusstsein",
+    "definition": "Verdinglichung beschreibt, wie gesellschaftlich geschaffene Beziehungen den Anschein unabhängiger, sachlicher Dinge annehmen. Im Warentausch erscheinen etwa menschliche Arbeitsverhältnisse als Eigenschaften von Preisen und Produkten. Diese Form der Wahrnehmung kann sich auf Verwaltung, Recht und Selbstverständnis ausweiten, bleibt aber historisch veränderbar.",
+    "gegenbegriff": "Entfetischisierung"
+  },
+  {
+    "kategorie": "Materialismus & Dialektik",
+    "begriff": "Hegemonie",
+    "denker_werk": "Antonio Gramsci, Gefängnishefte",
+    "definition": "Hegemonie ist eine Form gesellschaftlicher Führung, die Herrschaft mit Zustimmung verbindet. Eine dominante Gruppe setzt ihre Deutungen nicht nur durch Zwang, sondern verankert sie als plausiblen Gemeinsinn in Zivilgesellschaft und Institutionen. Hegemonie bleibt umkämpft und kann durch Gegenentwürfe und neue Bündnisse verschoben werden.",
+    "gegenbegriff": "Herrschaft durch unmittelbaren Zwang"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Gebrauchswert und Tauschwert",
+    "denker_werk": "Karl Marx, Das Kapital, Band I",
+    "definition": "Der Gebrauchswert bezeichnet die konkrete Nützlichkeit eines Gegenstands, während sein Tauschwert das quantitative Verhältnis ausdrückt, in dem er gegen andere Waren getauscht wird. In der Warenproduktion fallen beide Seiten zusammen, sind aber nicht identisch: Nützlichkeit allein erklärt keinen Marktpreis. Die Unterscheidung macht sichtbar, wie Bedürfnisse und Verwertung in der Warenform vermittelt werden.",
+    "gegenbegriff": "Nützlichkeit und Marktpreis"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Wert",
+    "denker_werk": "Karl Marx, Das Kapital, Band I",
+    "definition": "Marx bestimmt den Wert einer Ware über die gesellschaftlich notwendige Arbeitszeit, die unter durchschnittlichen Produktionsbedingungen zu ihrer Herstellung erforderlich ist. Wert ist keine natürliche Eigenschaft eines Gegenstands, sondern eine gesellschaftliche Form, in der voneinander unabhängige Arbeiten aufeinander bezogen werden. Sichtbar wird er im Austausch, ohne auf den jeweiligen Preis reduzierbar zu sein.",
+    "gegenbegriff": "Gebrauchswert"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Mehrwert",
+    "denker_werk": "Karl Marx, Das Kapital, Band I",
+    "definition": "Mehrwert ist der Wert, den Lohnarbeit über den Wert ihrer eigenen Arbeitskraft hinaus schafft und den sich das Kapital aneignet. Möglich wird dies, weil Arbeitskraft als Ware bezahlt wird, während ihr Gebrauch im Produktionsprozess mehr Wert hervorbringen kann als ihre Reproduktion kostet. Der Begriff erklärt Ausbeutung als strukturelles Verhältnis und nicht notwendig als individuellen Betrug.",
+    "gegenbegriff": "Lohn der Arbeitskraft"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Warenfetisch",
+    "denker_werk": "Karl Marx, Das Kapital, Band I",
+    "definition": "Der Warenfetisch bezeichnet den Schein, als besäßen Waren und Preise aus sich heraus gesellschaftliche Macht. Tatsächlich drückt die Wertform Beziehungen zwischen Menschen und ihrer Arbeit aus, die im Austausch als Beziehungen zwischen Dingen erscheinen. Der Fetisch ist deshalb keine bloße Fehlmeinung, sondern entsteht aus der alltäglichen Organisation der Warenproduktion.",
+    "gegenbegriff": "Gesellschaftliche Vermittlung"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Ursprüngliche Akkumulation",
+    "denker_werk": "Karl Marx, Das Kapital, Band I",
+    "definition": "Ursprüngliche Akkumulation bezeichnet die historischen Prozesse, durch die Produzierende von ihren Produktionsmitteln getrennt und Eigentumsverhältnisse des Kapitalismus etabliert wurden. Marx betont Enteignung, Kolonialismus, staatliche Gewalt und gesetzliche Zwangsmittel statt einer friedlichen Ansammlung von Sparvermögen. Der Ausdruck verweist auf eine gewaltsame Vorgeschichte und auf deren fortdauernde Bedeutung.",
+    "gegenbegriff": "Friedliche Kapitalbildung"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Reproduktionsschemata",
+    "denker_werk": "Karl Marx, Das Kapital, Band II",
+    "definition": "Die Reproduktionsschemata modellieren, wie die Abteilungen für Produktionsmittel und Konsumgüter ihre Erzeugnisse austauschen müssen, damit eine Volkswirtschaft sich erneuern kann. Sie unterscheiden einfache Reproduktion von erweiterter Reproduktion, bei der ein Teil des Mehrwerts erneut investiert wird. Das Modell legt Bedingungen und mögliche Ungleichgewichte offen, bildet aber keine vollständige empirische Prognose.",
+    "gegenbegriff": "Kreislauf ohne sektorale Proportionen"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Arbeitskraft",
+    "denker_werk": "Karl Marx, Das Kapital, Band I",
+    "definition": "Arbeitskraft ist die Fähigkeit eines Menschen zu arbeiten, die im Kapitalismus zeitweise als Ware verkauft wird. Ihr Wert hängt von den gesellschaftlich üblichen Bedingungen ihrer Reproduktion ab, während ihr Gebrauch im Produktionsprozess neuen Wert schaffen kann. Diese Differenz bildet die Grundlage der Mehrwertproduktion.",
+    "gegenbegriff": "Konkrete Arbeit"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Konstantes und variables Kapital",
+    "denker_werk": "Karl Marx, Das Kapital, Band I",
+    "definition": "Konstantes Kapital bezeichnet den Wert von Produktionsmitteln, der im Arbeitsprozess auf das Produkt übertragen wird. Variables Kapital ist der für Arbeitskraft vorgeschossene Teil des Kapitals, der im Produktionsprozess Mehrwert hervorbringen kann. Die Unterscheidung analysiert unterschiedliche Funktionen im Verwertungsprozess und nicht bloß verschiedene Arten von Geld.",
+    "gegenbegriff": "Fixes und zirkulierendes Kapital"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Absoluter und relativer Mehrwert",
+    "denker_werk": "Karl Marx, Das Kapital, Band I",
+    "definition": "Absoluter Mehrwert wächst, wenn die Arbeitszeit über die notwendige Arbeitszeit hinaus verlängert wird. Relativer Mehrwert steigt, wenn Produktivitätsgewinne den Anteil der Arbeitszeit senken, der zur Reproduktion der Arbeitskraft erforderlich ist. Die beiden Formen zeigen unterschiedliche, oft miteinander verbundene Strategien der Ausbeutung.",
+    "gegenbegriff": "Notwendige Arbeitszeit"
+  },
+  {
+    "kategorie": "Kritik der politischen Ökonomie",
+    "begriff": "Kapitalzirkulation",
+    "denker_werk": "Karl Marx, Das Kapital, Band II",
+    "definition": "Kapital zirkuliert in einer Bewegung, in der Geld in Waren und Produktionsmittel verwandelt wird und als vermehrtes Geld zurückkehrt. Die Formel Geld–Ware–mehr Geld beschreibt nicht bloß Handel, sondern einen Prozess, der Produktion, Arbeitskraft und Realisierung einschließt. Unterbrechungen einzelner Phasen können Krisen und Liquiditätsprobleme auslösen.",
+    "gegenbegriff": "Einfacher Warentausch"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Transzendentaler Idealismus",
+    "denker_werk": "Immanuel Kant, Kritik der reinen Vernunft",
+    "definition": "Kants transzendentaler Idealismus fragt nach den Bedingungen, unter denen Gegenstände für uns überhaupt erfahrbar werden. Raum, Zeit und Kategorien gelten als Formen unserer Erkenntnis, nicht als Eigenschaften der Dinge, wie sie unabhängig von jeder Erfahrung bestehen. Damit verbindet Kant die Realität empirischer Gegenstände mit einer Grenze des Wissens über das Ding an sich.",
+    "gegenbegriff": "Dogmatischer Realismus"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Absoluter Geist",
+    "denker_werk": "G. W. F. Hegel, Enzyklopädie der philosophischen Wissenschaften",
+    "definition": "Der absolute Geist bezeichnet bei Hegel die Selbstverständigung des Geistes in Kunst, Religion und Philosophie. Freiheit wird dabei nicht als privater Besitz verstanden, sondern als Erkenntnis und Gestaltung gemeinsamer geschichtlicher Formen. „Absolut“ meint den Anspruch, diese Vermittlung umfassend zu begreifen, nicht einen individuellen übernatürlichen Geist.",
+    "gegenbegriff": "Subjektiver Geist"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Konstruktivismus",
+    "denker_werk": "Ernst von Glasersfeld, Radical Constructivism",
+    "definition": "Konstruktivistische Ansätze betonen, dass Erkenntnis nicht einfach eine fertige Außenwelt kopiert, sondern durch kognitive und soziale Operationen hervorgebracht wird. Aussagen werden an ihren Bewährungsbedingungen und ihrer Anschlussfähigkeit geprüft, nicht durch einen voraussetzungslosen Blick von nirgendwo. Daraus folgt nicht zwingend, dass eine Außenwelt nicht existiert.",
+    "gegenbegriff": "Naiver Abbildrealismus"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Erscheinung und Ding an sich",
+    "denker_werk": "Immanuel Kant, Kritik der reinen Vernunft",
+    "definition": "Erscheinungen sind Gegenstände, wie sie unter den Bedingungen menschlicher Anschauung und Begriffsbildung erkannt werden. Das Ding an sich bezeichnet dagegen Dinge unabhängig von dieser Erkenntnisweise und ist für Kant kein Gegenstand möglicher theoretischer Erfahrung. Die Unterscheidung markiert eine Grenze des Wissens, nicht zwei sichtbar getrennte Welten.",
+    "gegenbegriff": "Phänomenalismus"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Synthetisches Urteil a priori",
+    "denker_werk": "Immanuel Kant, Kritik der reinen Vernunft",
+    "definition": "Ein synthetisches Urteil erweitert den Inhalt eines Begriffs, statt lediglich dessen bereits enthaltene Merkmale zu entfalten. „A priori“ heißt, dass seine Geltung nicht aus einzelnen Beobachtungen abgeleitet wird. Kant untersucht, ob und wie solche Urteile möglich sind, weil sie für Mathematik und Naturerkenntnis grundlegend erscheinen.",
+    "gegenbegriff": "Analytisches Urteil"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Anerkennung",
+    "denker_werk": "G. W. F. Hegel, Phänomenologie des Geistes",
+    "definition": "Anerkennung beschreibt, wie Selbstbewusstsein sich nicht isoliert, sondern in der Beziehung zu einem anderen Selbstbewusstsein bildet. Eine tragfähige Beziehung verlangt wechselseitige Anerkennung freier Subjekte; einseitige Abhängigkeit bleibt instabil. Hegels Dialektik zeigt, dass Selbstständigkeit soziale Vermittlung voraussetzt.",
+    "gegenbegriff": "Einseitige Unterwerfung"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Begriff und Anschauung",
+    "denker_werk": "Immanuel Kant, Kritik der reinen Vernunft",
+    "definition": "Anschauung gibt einen Gegenstand sinnlich und konkret, während Begriffe Merkmale ordnen und Urteile ermöglichen. Für Kant entsteht Erkenntnis erst im Zusammenwirken beider Vermögen: Anschauungen ohne Begriffe bleiben ungeordnet, Begriffe ohne Anschauung haben keinen bestimmten Gegenstand. Die Formel beschreibt eine notwendige Ergänzung, keine bloße Rangordnung.",
+    "gegenbegriff": "Begrifflicher Rationalismus"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Geist und Natur",
+    "denker_werk": "G. W. F. Hegel, Enzyklopädie der philosophischen Wissenschaften",
+    "definition": "Hegels Philosophie behandelt Natur und Geist nicht als völlig beziehungslose Substanzen, sondern als Momente eines umfassenden Vermittlungszusammenhangs. Geist entsteht in leiblichen, sozialen und geschichtlichen Formen, ohne auf Naturprozesse schlicht reduziert zu werden. Die Beziehung ist daher weder Dualismus noch einfache Identität.",
+    "gegenbegriff": "Substanzdualismus"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Selbstbewusstsein",
+    "denker_werk": "G. W. F. Hegel, Phänomenologie des Geistes",
+    "definition": "Selbstbewusstsein ist mehr als die unmittelbare Wahrnehmung eigener Zustände; es bezieht sich auf sich selbst durch Begriffe und Beziehungen zu anderen. Bei Hegel wird es in sozialen Praktiken und Anerkennungsverhältnissen vermittelt. Seine Entwicklung ist daher zugleich individuell und geschichtlich.",
+    "gegenbegriff": "Unmittelbares Bewusstsein"
+  },
+  {
+    "kategorie": "Idealismus & Erkenntnistheorie",
+    "begriff": "Subjekt-Objekt-Verhältnis",
+    "denker_werk": "Immanuel Kant, Kritik der reinen Vernunft",
+    "definition": "Das Subjekt-Objekt-Verhältnis fragt, wie erkennende Personen und erkannte Gegenstände aufeinander bezogen sind. Kritische Erkenntnistheorie untersucht dabei sowohl die Beiträge des Subjekts als auch den Widerstand und die Bedingungen des Gegenstands. Sie vermeidet damit die einfache Annahme, Erkenntnis sei entweder bloße Kopie oder freie Erfindung.",
+    "gegenbegriff": "Abbildtheorie"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Autopoiesis",
+    "denker_werk": "Humberto R. Maturana und Francisco J. Varela, Autopoiesis and Cognition",
+    "definition": "Autopoiesis bezeichnet die Selbstproduktion eines Systems durch ein Netzwerk von Prozessen, das die Elemente und Grenzen des Systems fortlaufend hervorbringt. Luhmann überträgt den Begriff auf soziale Systeme, deren Elemente Kommunikationen sind. Selbstproduktion bedeutet dabei keine Unabhängigkeit von der Umwelt, sondern eine spezifische Weise, Umweltbezüge intern zu verarbeiten.",
+    "gegenbegriff": "Allopoietische Fremdproduktion"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Funktionale Differenzierung",
+    "denker_werk": "Niklas Luhmann, Die Gesellschaft der Gesellschaft",
+    "definition": "Funktionale Differenzierung beschreibt die Gliederung moderner Gesellschaft in spezialisierte Bereiche wie Politik, Recht, Wirtschaft und Wissenschaft. Jeder Bereich bearbeitet bestimmte Probleme mit eigenen Kommunikationsformen, ohne eine zentrale Gesamtsteuerung zu besitzen. Das erhöht Spezialisierung, erschwert aber die Abstimmung zwischen gesellschaftlichen Teilbereichen.",
+    "gegenbegriff": "Hierarchische Ständegesellschaft"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Habitus",
+    "denker_werk": "Pierre Bourdieu, Sozialer Sinn",
+    "definition": "Habitus ist ein System erworbener, meist nicht ausdrücklich bewusster Dispositionen, das Wahrnehmungen und Handlungen strukturiert. Er entsteht aus sozialen Lebensbedingungen und reproduziert diese häufig, ohne Verhalten mechanisch festzulegen. So erklärt Bourdieu, wie soziale Ordnung in Körperhaltungen, Geschmack und praktischer Urteilskraft wirksam wird.",
+    "gegenbegriff": "Reines Kalkül"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Kulturelles Kapital",
+    "denker_werk": "Pierre Bourdieu, Die Formen des Kapitals",
+    "definition": "Kulturelles Kapital umfasst verkörperte Fähigkeiten und Umgangsformen, objektivierte Kulturgüter sowie institutionell bestätigte Bildungsnachweise. Sein Wert hängt davon ab, ob ein Feld die jeweiligen Kompetenzen anerkennt und in Vorteile umwandelt. Der Begriff zeigt, wie Bildungsungleichheit auch dann fortbestehen kann, wenn formale Zugänge offen erscheinen.",
+    "gegenbegriff": "Ökonomisches Kapital"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Soziales Kapital",
+    "denker_werk": "Pierre Bourdieu, Die Formen des Kapitals",
+    "definition": "Soziales Kapital bezeichnet Ressourcen, die aus dauerhaften Beziehungen, Zugehörigkeiten und wechselseitiger Anerkennung erwachsen. Netzwerke sind nicht automatisch vorteilhaft; ihr Nutzen hängt von Umfang, Verlässlichkeit und den verfügbaren Ressourcen der Beteiligten ab. Der Begriff macht sichtbar, dass Beziehungen ungleich verteilt und sozial reproduziert werden.",
+    "gegenbegriff": "Individuelle Ressource ohne Netzwerk"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Anomie",
+    "denker_werk": "Émile Durkheim, Der Selbstmord",
+    "definition": "Anomie bezeichnet eine Schwächung oder Unklarheit sozialer Regeln, die Erwartungen und Bedürfnisse begrenzen und orientieren. Durkheim verwendet den Begriff, um Situationen rascher Veränderung und gestörter sozialer Regulierung zu analysieren. Anomie ist daher nicht einfach Regelbruch, sondern eine Krise der normativen Einbindung.",
+    "gegenbegriff": "Soziale Integration"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Kommunikatives Handeln",
+    "denker_werk": "Jürgen Habermas, Theorie des kommunikativen Handelns",
+    "definition": "Kommunikatives Handeln zielt auf Verständigung, indem Beteiligte Geltungsansprüche wie Wahrheit, Richtigkeit und Wahrhaftigkeit kritisierbar machen. Es unterscheidet sich von strategischem Handeln, das andere primär als Mittel zur Durchsetzung eigener Ziele behandelt. Verständigung bedeutet dabei nicht Konfliktfreiheit, sondern die prinzipielle Möglichkeit begründeter Einwände.",
+    "gegenbegriff": "Strategisches Handeln"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Lebenswelt und System",
+    "denker_werk": "Jürgen Habermas, Theorie des kommunikativen Handelns",
+    "definition": "Lebenswelt meint den geteilten Hintergrund aus Wissen, Normen und Selbstverständlichkeiten, der alltägliche Verständigung ermöglicht. Systeme wie Wirtschaft und Verwaltung koordinieren Handlungen dagegen zunehmend über Medien wie Geld und Macht. Eine Kolonialisierung der Lebenswelt liegt vor, wenn solche Steuerungslogiken Bereiche verdrängen, die auf Kommunikation und gemeinsamer Sinnbildung angewiesen sind.",
+    "gegenbegriff": "Unmittelbare Systemsteuerung"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Doppelte Kontingenz",
+    "denker_werk": "Talcott Parsons, Toward a General Theory of Action; Niklas Luhmann",
+    "definition": "Doppelte Kontingenz beschreibt eine Situation, in der zwei Handelnde ihr Verhalten jeweils von den Erwartungen des anderen abhängig machen. Weil beide Seiten frei reagieren können, ist keine Handlung vollständig vorhersehbar. Normen, Kommunikation und Institutionen stabilisieren Erwartungen, ohne die Offenheit sozialer Beziehungen aufzuheben.",
+    "gegenbegriff": "Einseitige Determination"
+  },
+  {
+    "kategorie": "Systemtheorie & Soziologie",
+    "begriff": "Strukturelle Kopplung",
+    "denker_werk": "Niklas Luhmann, Die Gesellschaft der Gesellschaft",
+    "definition": "Strukturelle Kopplung bezeichnet dauerhafte Anschlussstellen, über die eigenständige Systeme regelmäßig aufeinander reagieren können. Sie überträgt keine fertigen Inhalte, sondern löst systeminterne Operationen aus, die nach eigenen Strukturen verarbeitet werden. So lassen sich etwa Beziehungen zwischen Recht, Politik und Wirtschaft beschreiben, ohne sie zu einem einzigen System zusammenzufassen.",
+    "gegenbegriff": "Direkte Verschmelzung von Systemen"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Logischer Empirismus",
+    "denker_werk": "Wiener Kreis, Wissenschaftliche Weltauffassung",
+    "definition": "Der logische Empirismus verband empirische Überprüfbarkeit mit den formalen Werkzeugen der modernen Logik. Er wollte wissenschaftliche Aussagen klären und metaphysische Sätze als nicht empirisch entscheidbar kenntlich machen. Spätere Kritik zeigte, dass Beobachtung, Bedeutung und Theoriewahl komplexer sind als ein einfaches Verifikationsideal.",
+    "gegenbegriff": "Metaphysischer Realismus"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Positivismusstreit",
+    "denker_werk": "Theodor W. Adorno und Karl R. Popper, Der Positivismusstreit in der deutschen Soziologie",
+    "definition": "Der Positivismusstreit war eine Auseinandersetzung darüber, wie Sozialwissenschaften ihre Gegenstände, Methoden und kritischen Ansprüche bestimmen sollen. Popper betonte kritische Prüfung und methodische Offenheit, während Adorno auf gesellschaftliche Totalität und die historische Vermittlung des Gegenstands insistierte. Der Streit zeigt, dass Methodenfragen auch unterschiedliche Vorstellungen von Gesellschaft und Erkenntnis enthalten.",
+    "gegenbegriff": "Methodenmonismus"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Falsifikationismus",
+    "denker_werk": "Karl R. Popper, Logik der Forschung",
+    "definition": "Falsifikationismus versteht wissenschaftliche Theorien als prüfbare Vermutungen, die an möglichen Gegenbelegen scheitern können müssen. Einzelne erfolgreiche Tests beweisen eine Theorie nicht endgültig, sondern bewähren sie vorläufig gegenüber ernsthaften Prüfungen. In der Praxis sind Falsifikationen jedoch selten eindeutig, weil Messannahmen und Hilfshypothesen mitgeprüft werden.",
+    "gegenbegriff": "Verifikationismus"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Abgrenzungsproblem",
+    "denker_werk": "Karl R. Popper, Logik der Forschung",
+    "definition": "Das Abgrenzungsproblem fragt, wodurch wissenschaftliche Aussagen von nichtwissenschaftlichen oder pseudowissenschaftlichen unterschieden werden können. Poppers Falsifizierbarkeit ist ein einflussreiches Kriterium, aber kein vollständiges Urteil über Wahrheit oder gesellschaftlichen Wert. Wissenschaftliche Praxis nutzt deshalb mehrere Kriterien wie Erklärungskraft, methodische Transparenz und Anschluss an überprüfbare Forschung.",
+    "gegenbegriff": "Wahrheitsbeweis"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Paradigma",
+    "denker_werk": "Thomas S. Kuhn, Die Struktur wissenschaftlicher Revolutionen",
+    "definition": "Ein Paradigma bündelt beispielhafte Problemlösungen, Begriffe und Standards, an denen eine wissenschaftliche Gemeinschaft ihre Forschung ausrichtet. In der Normalwissenschaft werden Rätsel innerhalb dieses Rahmens bearbeitet, bis anhaltende Anomalien Krisen auslösen können. Ein Paradigmenwechsel verändert häufig auch, welche Fragen und Beobachtungen als bedeutsam gelten.",
+    "gegenbegriff": "Einzelne Hypothese"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Theoriegeladenheit der Beobachtung",
+    "denker_werk": "Norwood Russell Hanson, Patterns of Discovery",
+    "definition": "Theoriegeladenheit bedeutet, dass Beobachtungen durch Begriffe, Erwartungen, Messinstrumente und erlernte Unterscheidungen mitgeprägt werden. Daraus folgt nicht, dass Daten beliebig oder rein subjektiv wären, denn Verfahren können öffentlich geprüft und zwischen Forschenden verglichen werden. Der Begriff richtet sich gegen die Vorstellung eines vollständig voraussetzungslosen Beobachtungsstandpunkts.",
+    "gegenbegriff": "Neutrale Beobachtung"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Kritischer Rationalismus",
+    "denker_werk": "Karl R. Popper, Die offene Gesellschaft und ihre Feinde",
+    "definition": "Der kritische Rationalismus betrachtet Wissen als fallibel und setzt auf öffentliche Kritik statt auf endgültige Gewissheit. Theorien sollen riskante Prüfungen ermöglichen und bei Gegenargumenten revidierbar bleiben. Rationalität liegt dabei weniger in Unfehlbarkeit als in institutionell geschützten Verfahren des Widerspruchs.",
+    "gegenbegriff": "Dogmatismus"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Induktionsproblem",
+    "denker_werk": "David Hume, Eine Untersuchung über den menschlichen Verstand",
+    "definition": "Das Induktionsproblem fragt, ob aus endlich vielen beobachteten Fällen logisch auf unbeobachtete oder zukünftige Fälle geschlossen werden kann. Regelmäßigkeiten der Vergangenheit garantieren ihre Fortsetzung nicht, ohne dass bereits eine Annahme über die Gleichförmigkeit der Natur vorausgesetzt wird. Wissenschaft begegnet dem Problem durch Prüfverfahren und revidierbare Modelle, nicht durch einen endgültigen logischen Beweis.",
+    "gegenbegriff": "Deduktion"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Hermeneutischer Zirkel",
+    "denker_werk": "Hans-Georg Gadamer, Wahrheit und Methode",
+    "definition": "Der hermeneutische Zirkel beschreibt, dass einzelne Textstellen aus einem vorgestellten Ganzen und das Ganze aus seinen Teilen verstanden werden. Vorannahmen sind dabei unvermeidlich, können aber im Auslegen sichtbar und korrigierbar werden. Verstehen ist somit ein fortlaufender Prozess wechselseitiger Präzisierung statt eines voraussetzungslosen Zugriffs.",
+    "gegenbegriff": "Unmittelbares Verstehen"
+  },
+  {
+    "kategorie": "Positivismus & Wissenschaftstheorie",
+    "begriff": "Idealtypus",
+    "denker_werk": "Max Weber, Die „Objektivität“ sozialwissenschaftlicher Erkenntnis",
+    "definition": "Ein Idealtypus ist eine analytische Konstruktion, die ausgewählte Merkmale eines sozialen Phänomens einseitig zuspitzt. Er ist weder moralisches Vorbild noch genaue Beschreibung eines Einzelfalls, sondern ein Vergleichsmaßstab für empirische Wirklichkeit. Abweichungen vom Modell können gerade helfen, historische Besonderheiten zu erklären.",
+    "gegenbegriff": "Durchschnittstypus"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Intersektionalität",
+    "denker_werk": "Kimberlé Crenshaw, Demarginalizing the Intersection of Race and Sex",
+    "definition": "Intersektionalität untersucht, wie Machtverhältnisse wie Rassismus, Sexismus und Klassismus miteinander verschränkt wirken. Crenshaw zeigte, dass rechtliche und politische Kategorien Erfahrungen unsichtbar machen können, wenn sie nur eine Achse berücksichtigen. Der Ansatz ist eine Analyse struktureller Beziehungen und keine bloße Addition persönlicher Identitäten.",
+    "gegenbegriff": "Ein-Achsen-Analyse"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Soziale Reproduktion und Care-Arbeit",
+    "denker_werk": "Lise Vogel, Marxism and the Oppression of Women",
+    "definition": "Soziale Reproduktion umfasst Tätigkeiten und Institutionen, die Menschen und ihre Arbeitsfähigkeit über den Lebensverlauf erhalten und erneuern. Dazu zählen bezahlte und unbezahlte Sorgearbeit, Erziehung, Pflege und alltägliche Versorgung. Eine feministische politische Ökonomie fragt, wie diese notwendige Arbeit verteilt, entlohnt oder unsichtbar gemacht wird.",
+    "gegenbegriff": "Ausschließlich warenförmige Produktion"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Performativität",
+    "denker_werk": "Judith Butler, Das Unbehagen der Geschlechter",
+    "definition": "Performativität bezeichnet, wie wiederholte, sozial regulierte Handlungen und Redeweisen den Eindruck stabiler Identitäten hervorbringen. Geschlecht ist in dieser Analyse weder eine frei gewählte Rolle noch eine unveränderliche Essenz, sondern wird durch Normen und deren Wiederholung verständlich. Weil Wiederholung nie vollkommen identisch ist, eröffnet sie zugleich Möglichkeiten der Verschiebung.",
+    "gegenbegriff": "Wesensessentialismus"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Kulturelle Hegemonie",
+    "denker_werk": "Antonio Gramsci, Gefängnishefte",
+    "definition": "Kulturelle Hegemonie bezeichnet die Fähigkeit, eine gesellschaftliche Sichtweise als allgemeinen und selbstverständlichen Gemeinsinn zu etablieren. Sie wird durch Bildung, Medien, Organisationen und alltägliche Praktiken hergestellt und verbindet Zustimmung mit ungleichen Machtverhältnissen. Gegenhegemoniale Politik entwickelt alternative Deutungen und Bündnisse, statt allein auf staatliche Macht zu setzen.",
+    "gegenbegriff": "Bloße Zensur"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Subalternität",
+    "denker_werk": "Gayatri Chakravorty Spivak, Can the Subaltern Speak?",
+    "definition": "Subalternität bezeichnet eine gesellschaftliche Lage, in der Gruppen von dominanten Institutionen und Diskursen strukturell ausgeschlossen oder nur durch fremde Repräsentation hörbar werden. Spivak fragt, wer für wen spricht und welche Machtverhältnisse dabei Erfahrungen übersetzen oder auslöschen. Der Begriff meint deshalb nicht einfach geringe Lautstärke, sondern eine politische Begrenzung von Stimme und Handlungsmacht.",
+    "gegenbegriff": "Unvermittelte Repräsentation"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Biopolitik",
+    "denker_werk": "Michel Foucault, Der Wille zum Wissen",
+    "definition": "Biopolitik bezeichnet Machtformen, die Leben auf Ebene einzelner Körper und ganzer Bevölkerungen erfassen, regulieren und optimieren. Statistiken, Medizin, Hygiene und Verwaltung machen Gesundheit, Geburten und Risiken zu politischen Gegenständen. Foucaults Analyse beschreibt, wie Macht produktiv wirkt, nicht nur durch Verbote und Strafen.",
+    "gegenbegriff": "Souveräne Strafmacht"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Kulturindustrie",
+    "denker_werk": "Max Horkheimer und Theodor W. Adorno, Dialektik der Aufklärung",
+    "definition": "Kulturindustrie bezeichnet die industrielle Produktion und Vermarktung kultureller Güter nach standardisierten und auf Verwertung ausgerichteten Mustern. Horkheimer und Adorno kritisieren, dass scheinbare Wahlfreiheit mit Wiederholung und passivem Konsum verbunden sein kann. Der Begriff bestreitet nicht jede kulturelle Kreativität, sondern untersucht ihre Einbindung in Waren- und Machtverhältnisse.",
+    "gegenbegriff": "Autonome Kunst"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Standpunkttheorie",
+    "denker_werk": "Sandra Harding, Whose Science? Whose Knowledge?",
+    "definition": "Standpunkttheorie untersucht, wie soziale Positionen beeinflussen, welche Erfahrungen und Fragen in Wissensproduktion eingehen. Marginalisierte Perspektiven können blinde Flecken dominanter Forschung sichtbar machen, besitzen aber nicht automatisch unfehlbare Erkenntnis. Ein kritischer Standpunkt entsteht durch Reflexion und kollektive Untersuchung, nicht allein durch Zugehörigkeit.",
+    "gegenbegriff": "Wertneutrale Perspektive von nirgendwo"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Patriarchat",
+    "denker_werk": "Sylvia Walby, Theorizing Patriarchy",
+    "definition": "Patriarchat bezeichnet ein historisch wandelbares Gefüge sozialer Strukturen und Praktiken, durch das Männer als Gruppe systematische Vorteile gegenüber Frauen erhalten. Es kann sich in Arbeitsteilung, Gewaltverhältnissen, Politik, Kultur und privaten Beziehungen unterschiedlich ausprägen. Der Begriff benennt eine Struktur, ohne jede einzelne Beziehung auf ein einheitliches Muster zu reduzieren.",
+    "gegenbegriff": "Geschlechteregalität"
+  },
+  {
+    "kategorie": "Feminismus & linke Diskurse",
+    "begriff": "Rassifizierter Kapitalismus",
+    "denker_werk": "Cedric J. Robinson, Black Marxism",
+    "definition": "Der Begriff untersucht, wie kapitalistische Entwicklung historisch mit rassistischen Hierarchien, Kolonialismus und ungleicher Verteilung von Arbeit verbunden ist. Robinson kritisiert Erzählungen, die Kapitalismus als rein universelle Klassenordnung behandeln und Rassismus erst nachträglich hinzufügen. Die Analyse fragt, wie rassifizierte Differenzen ökonomische Ausbeutung organisieren und legitimieren.",
+    "gegenbegriff": "Klassenanalyse ohne Rassismus"
+  }
+]
